@@ -191,7 +191,7 @@ const Main = () => {
                 placeholder="DD"
                 value={day}
                 onChange={handleChange}
-                className={`px-3 w-20 rounded-md py-2 focus:outline-primaryPurple outline-none placeholder:font-extrabold placeholder:font-poppins-bold ${darkMode ? "bg-gray-700 text-white" :bluMode ?  "focus:outline-blue-500":greenMode ? "focus:outline-green-500": "bg-gray-100"} ${dayError ? "border-red-500" : ""}`}
+                className={`px-3 w-20 rounded-md py-2  outline-none placeholder:font-extrabold placeholder:font-poppins-bold ${darkMode ? "bg-gray-700 text-white focus:outline-primaryPurple" :bluMode ?  "focus:outline-blue-500":greenMode ? "focus:outline-green-500": "bg-gray-100 focus:outline-primaryPurple"} ${dayError ? "border-red-500" : ""}`}
                 autoComplete="off"
               />
             </div>
@@ -203,7 +203,7 @@ const Main = () => {
                 placeholder="MM"
                 value={month}
                 onChange={handleChange}
-                className={`px-3 w-20 rounded-md py-2 focus:outline-primaryPurple outline-none placeholder:font-extrabold placeholder:font-poppins-bold ${darkMode ? "bg-gray-700 text-white" :bluMode ?  "focus:outline-blue-500":greenMode ? "focus:outline-green-500": "bg-gray-100"} ${dayError ? "border-red-500" : ""}`}
+                className={`px-3 w-20 rounded-md py-2  outline-none placeholder:font-extrabold placeholder:font-poppins-bold ${darkMode ? "bg-gray-700 text-white focus:outline-primaryPurple" :bluMode ?  "focus:outline-blue-500":greenMode ? "focus:outline-green-500": "bg-gray-100 focus:outline-primaryPurple"} ${dayError ? "border-red-500" : ""}`}
                 autoComplete="off"
               />
             </div>
@@ -215,7 +215,7 @@ const Main = () => {
                 placeholder="YYYY"
                 value={year}
                 onChange={handleChange}
-                className={`px-3 w-20 rounded-md py-2 focus:outline-primaryPurple outline-none placeholder:font-extrabold placeholder:font-poppins-bold ${darkMode ? "bg-gray-700 text-white" :bluMode ?  "focus:outline-blue-500":greenMode ? "focus:outline-green-500": "bg-gray-100"} ${dayError ? "border-red-500" : ""}`}
+                className={`px-3 w-20 rounded-md py-2  outline-none placeholder:font-extrabold placeholder:font-poppins-bold ${darkMode ? "bg-gray-700 text-white focus:outline-primaryPurple" :bluMode ?  "focus:outline-blue-500":greenMode ? "focus:outline-green-500": "bg-gray-100 focus:outline-primaryPurple"} ${dayError ? "border-red-500" : ""}`}
                 autoComplete="off"
               />
             </div>
