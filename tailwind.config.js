@@ -15,6 +15,8 @@ export default {
         neutralLightGrey: "hsl(0, 0%, 86%)",
         neutralSmokeyGrey: "hsl(0, 1%, 44%)",
         neutralOffBlack: "hsl(0, 0%, 8%)",
+        primaryBlue: "hsl(207, 90%, 54%)", // Blue Theme color
+        primaryGreen: "hsl(125, 70%, 43%)", // Green Theme color
       },
     },
   },
