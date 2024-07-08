@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Poppins-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(./assets/font/Poppins-Regular.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'Poppins-Bold';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(./assets/font/Poppins-Bold.ttf) format('truetype');
+    }
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+}
