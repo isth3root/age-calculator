@@ -187,7 +187,7 @@ const Main = () => {
           : bluMode
           ? "bg-blue-400 text-black"
           : greenMode
-          ? "bg-green-400"
+          ? "bg-[#afe1af]"
           : ""
       } transition-colors duration-300`}
     >
@@ -320,7 +320,7 @@ const Main = () => {
                   : bluMode
                   ? "bg-blue-400"
                   : greenMode
-                  ? "bg-green-400"
+                  ? "bg-[#50c878]"
                   : "bg-primaryPurple"
               } rounded-full p-3 absolute -right-5 -bottom-6`}
               type="submit"
@@ -340,7 +340,7 @@ const Main = () => {
                     : bluMode
                     ? "text-blue-600"
                     : greenMode
-                    ? "text-green-600"
+                    ? "text-[#50c878]"
                     : "text-primaryPurple"
                 }`}
               >
@@ -362,7 +362,7 @@ const Main = () => {
                     : bluMode
                     ? "text-blue-600"
                     : greenMode
-                    ? "text-green-600"
+                    ? "text-[#50c878]"
                     : "text-primaryPurple"
                 }`}
               >
@@ -384,7 +384,7 @@ const Main = () => {
                     : bluMode
                     ? "text-blue-600"
                     : greenMode
-                    ? "text-green-600"
+                    ? "text-[#50c878]"
                     : "text-primaryPurple"
                 }`}
               >
